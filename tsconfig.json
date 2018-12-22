@@ -1,0 +1,28 @@
+﻿{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "module": "commonjs",
+        "removeComments": true,
+        "strictNullChecks": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": false,
+        "noImplicitAny": true,
+        "noUnusedParameters": true,
+        "noUnusedLocals": true,
+        "forceConsistentCasingInFileNames": true,
+        "target": "es5",
+        "lib": [ "es6", "dom" ],
+        "jsx": "react",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "allowJs": true,
+        "sourceMap": true
+    },
+    "compileOnSave": false,
+    "include": [
+        "./src/**/*",
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
